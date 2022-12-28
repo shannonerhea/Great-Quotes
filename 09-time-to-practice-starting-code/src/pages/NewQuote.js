@@ -2,7 +2,7 @@
 
 const NewQuote = () => {
     return (
-        <h1>New Quotes!</h1>
+        <h1>New Quotes Page!</h1>
     );
 };
 
