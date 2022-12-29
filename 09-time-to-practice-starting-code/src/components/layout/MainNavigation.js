@@ -4,8 +4,8 @@ import classes from "./MainNavigation.module.css";
 const MainNavigation = () => {
   return (
     <header className={classes.header}>
-      <div classeName={classes.logo}>Great Quotes!</div>
-      <nav classes={classes.nav}>
+      <div className={classes.logo}>Great Quotes!</div>
+      <nav className={classes.nav}>
         <ul>
           <li>
             <NavLink to="/quotes" activeClassName={classes.active}>

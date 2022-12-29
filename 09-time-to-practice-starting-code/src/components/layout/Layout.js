@@ -6,7 +6,7 @@ const Layout = (props) => {
   return (
     <Fragment>
       <MainNavigation />
-      <main classes={classes.main}>{props.children}</main>
+      <main className={classes.main}>{props.children}</main>
     </Fragment>
   );
 };
