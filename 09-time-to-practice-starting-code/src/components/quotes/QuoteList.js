@@ -5,8 +5,11 @@ import QuoteItem from './QuoteItem';
 import classes from './QuoteList.module.css';
 
 const QuoteList = (props) => {
-  const changeSortingHandler = () {
-    
+  const history = useHistory();
+  
+//history.push('/quotes?sort=' + props.sort)
+  const changeSortingHandler = () => {
+    history.push('/quotes?sort=asc');
   };
 
 
